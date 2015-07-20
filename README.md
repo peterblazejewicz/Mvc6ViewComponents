@@ -50,3 +50,23 @@ You called the aspnet subgenerator with the arg ProductService
 ProductService.cs created.
    create ProductService.cs
 ```
+
+ViewComponent:
+```
+ViewComponentSample git:(master) mkdir ViewComponents
+➜  ViewComponentSample git:(master) cd ViewComponents
+➜  ViewComponents git:(master) yo aspnet:Class PromotedProductsViewComponent
+You called the aspnet subgenerator with the arg PromotedProductsViewComponent
+PromotedProductsViewComponent.cs created.
+   create PromotedProductsViewComponent.c
+```
+
+Default view for ViewComponent:
+```
+ViewComponentSample git:(master) ✗ mkdir -p Views/Shared/Components/PromotedProducts   
+➜  ViewComponentSample git:(master) ✗ cd Views/Shared/Components/PromotedProducts 
+➜  PromotedProducts git:(master) ✗ yo aspnet:MvcView Default
+You called the aspnet subgenerator with the arg Default
+Default.cshtml created.
+   create Default.cshtml
+```
