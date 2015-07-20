@@ -1,4 +1,11 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
+<div class="col-md-4">
+    <h2>Important menu</h2>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+    </ul>
+    @await Component.InvokeAsync("PromotedProducts")
+</div>

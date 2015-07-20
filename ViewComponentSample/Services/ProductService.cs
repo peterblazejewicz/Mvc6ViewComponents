@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using ViewComponentSample.Models;
 
-namespace ViewComponentSample
+namespace ViewComponentSample.Services
 {
     public class ProductService : IProductService
     {

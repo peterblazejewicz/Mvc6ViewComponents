@@ -1,0 +1,15 @@
+@*
+    Default Razor view for PromotedProducts component
+*@
+
+@model IEnumerable<ViewComponentSample.Models.Product>
+<div class="panel panel-default">
+  <div class="panel-heading">Promoted products</div>
+
+  <ul class="list-group">
+    @foreach (var product in Model)
+    {
+        <li class="list-group-item">@product.Name - @product.Price</li>
+    }
+  </ul>
+</div>

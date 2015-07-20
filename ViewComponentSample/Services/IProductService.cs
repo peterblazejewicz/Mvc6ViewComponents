@@ -1,9 +1,9 @@
 using System.Threading.Tasks;
 using ViewComponentSample.Models;
 
-namespace ViewComponentSample
+namespace ViewComponentSample.Services
 {
-    interface IProductService
+    public interface IProductService
     {
 
         Task<Product[]> GetPromotedProducts();
